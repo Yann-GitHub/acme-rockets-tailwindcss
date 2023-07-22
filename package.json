@@ -1,7 +1,7 @@
 {
-  "name": "lesson02",
+  "name": "acme-rockets",
   "version": "1.0.0",
-  "description": "1. Initialiser un projet avec npm (npm init -y) 2. Installer tailwindcss en dev dependency (npm install -D tailwindcss@latest) 3. Initialiser un projet avec tailwindcss (npx tailwindcss init)",
+  "description": "Static website implementing Tailwind CSS",
   "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",

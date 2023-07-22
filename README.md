@@ -1,6 +1,6 @@
 # Acme Rockets - Tailwind project
 
-This repository hosts the codebase for Acme Rockets, a simple static website where I've implemented Tailwind CSS and incorporated CSS best practices. The website is deployed on render.com and can be accessed at https://xxxxx.onrender.com/.
+This repository hosts the codebase for Acme Rockets, a simple static website implementing Tailwind CSS and following CSS best practices. The website is deployed on render.com and can be accessed at https://xxxxx.onrender.com/.
 
 ## Get started with Tailwind CSS
 
@@ -31,7 +31,7 @@ content: ["./build/*.html", "./build/js/*.js"],
 @tailwind utilities;
 ```
 
- In some cases, you might encounter the error "unknown at-rule @tailwind" in VSCode. To resolve this, either modify the VSCode settings to avoid errors for future projects or add a '.vscode/settings.json' file with the following code:
+ In some cases, you might encounter the error "unknown at-rule @tailwind" in VSCode. To resolve this, either modify the VSCode settings to avoid errors for future projects or add a '.vscode/settings.json' file with the following code (https://stackoverflow.com/questions/65247279/unknown-at-rule-tailwind-cssunknownatrules):
 ```json
 {
   "files.associations": {
