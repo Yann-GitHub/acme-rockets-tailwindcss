@@ -1,6 +1,6 @@
 # Acme Rockets - Tailwind project
 
-This repository hosts the codebase for Acme Rockets, a simple static website implementing Tailwind CSS and following CSS best practices. The website is deployed on render.com and can be accessed at https://xxxxx.onrender.com/.
+This repository hosts the codebase for Acme Rockets, a simple static website implementing Tailwind CSS and following CSS best practices. The website is deployed on render.com and can be accessed at https://a-rockets.onrender.com. 
 
 ## Get started with Tailwind CSS
 
@@ -53,4 +53,4 @@ content: ["./build/*.html", "./build/js/*.js"],
 5. Custom classes & arbitrary values + extend and override tailwind classes with custom classes (see tailwind.config.js).
 6. Css config for sections full height depending on the viewport !!
 7. Prettier plugin for tailwindcss. (npm install -D prettier-plugin-tailwindcss)
-8. Deployement on render.com (https://xxxxx.onrender.com/).
+8. Deployement on render.com (https://a-rockets.onrender.com).
